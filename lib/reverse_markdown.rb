@@ -21,7 +21,7 @@ require 'reverse_markdown/converters/ignore'
 require 'reverse_markdown/converters/img'
 require 'reverse_markdown/converters/li'
 require 'reverse_markdown/converters/ol'
-require 'reverse_markdown/converters/p'
+# require 'reverse_markdown/converters/p'
 require 'reverse_markdown/converters/pass_through'
 require 'reverse_markdown/converters/pre'
 require 'reverse_markdown/converters/strong'
@@ -29,6 +29,7 @@ require 'reverse_markdown/converters/table'
 require 'reverse_markdown/converters/td'
 require 'reverse_markdown/converters/text'
 require 'reverse_markdown/converters/tr'
+require 'reverse_markdown/converters/u'
 
 module ReverseMarkdown
 
