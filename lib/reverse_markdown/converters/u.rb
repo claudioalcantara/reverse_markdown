@@ -11,6 +11,6 @@ module ReverseMarkdown
       end
     end
 
-    register :u, Strong.new
+    register :u, U.new
   end
 end
