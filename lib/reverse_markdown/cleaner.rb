@@ -10,7 +10,7 @@ module ReverseMarkdown
     end
 
     def remove_newlines(string)
-      string.gsub(/\n{3,}/, "")
+      string.gsub(/\n{3,}/, "\n\n")
     end
 
     def remove_leading_newlines(string)
